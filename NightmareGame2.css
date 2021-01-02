@@ -1,0 +1,58 @@
+body{
+	background-color:black;
+}
+
+.box {
+  border: 5px solid blue;
+  background: black;
+  height: 200px;
+  position: fixed;
+  width: 200px;
+}
+.box-1 {
+  left: 40%;
+}
+.box-2 {
+  top: 38%;
+  right: 25%;
+}
+.box-3 {
+  top:37%;
+  left: 23%;
+}
+.box-4 {
+  bottom: 0;
+  left: 40%;
+}
+.box-5{
+  top: 38%;
+  right: 25%;
+}
+
+.box-5:hover{
+	height: 0px;
+	width: 0px;
+	border: none;
+}
+
+#text{
+	color: red;
+	font-size: 30px;
+	text-align:center;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

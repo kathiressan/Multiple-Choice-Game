@@ -1,0 +1,47 @@
+body{
+background-color:black;
+}
+
+p {
+color:#CCFF33;
+font-family: Cursive;
+font-size: 25px;
+text-align: center;
+}
+
+#copyright {
+color: #CC3366;
+font-family: Agency FB;
+font-size: 30px;
+text-align: center;
+
+}
+
+#button {
+  background: #3300FF;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 5px 200px #0066FF;
+  text-decoration: none;
+  color: white;
+ /*width: 250px;
+height: 110px; 
+position: fixed;
+top: 30%;
+left: 40%*/
+margin: auto;
+    width: 25%;
+	padding: 10px;
+top: 30%;
+position:fixed;
+left: 37%;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+#button:hover{
+	opacity: 0.965;
+}
+

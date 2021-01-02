@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="NightmareGame3.css">
+</head>
+<body>
+
+<div id="text">Hint: Your cursor is the torchlight. Move it around.</div>
+
+
+<div class="box-set">
+  <a href="Death.html"><img src="crawler.jpg" class="box box-1"/></a>
+  <a href="Death.html"><img src="nightmare.jpg" class="box box-2"/></a>
+  <a href="ventSurvive.html"><figure class="box box-3"></figure></a>
+  <a href="NightmareVent.html"><img src="black.jpg" class="box box-4"/></a>
+  <img src="black.jpg" class="box box-5"/>
+</div>
+
+<div style="position:relative;">
+      <img style="position:absolute; top:280px; left: 600px;" src="compass.jpg"  width="170" height="170"/>
+    </div>
+
+
+
+
+<script type="text/javascript">
+alert("Final vent. This time you only get 3 seconds to click on the correct box. Beware Nightmare and the Molly!");
+</script>
+
+<script>
+	 var snd = new Audio("scream.mp3");
+	 snd.play(); 
+	
+</script>
+
+<script>
+
+  setTimeout(function(){window.location.href = 'Death.html'},2000);
+
+</script>
+
+
+
+</body>
+</html>
